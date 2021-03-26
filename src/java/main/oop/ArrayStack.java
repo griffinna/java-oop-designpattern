@@ -1,9 +1,9 @@
 package oop;
 
 public class ArrayStack {
-    public int top;
-    public int[] itemArray;
-    public int stackSize;
+    private int top;
+    private int[] itemArray;
+    private int stackSize;
 
     public ArrayStack(int stackSize) {
         itemArray = new int[stackSize];
