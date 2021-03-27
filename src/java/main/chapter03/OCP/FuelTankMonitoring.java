@@ -8,11 +8,11 @@ public class FuelTankMonitoring {
         }
     }
 
-    private void giveWarningSignal(String a) {
-        System.out.println();
+    protected void giveWarningSignal(String a) {
+        System.out.println("FuelTankMonitoring... warning");
     }
 
-    private boolean checkFuelTank(String a) {
-        return false;
+    protected boolean checkFuelTank(String a) {
+        return true;
     }
 }
