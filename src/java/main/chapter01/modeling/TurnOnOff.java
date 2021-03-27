@@ -1,4 +1,4 @@
-package modeling;
+package chapter01.modeling;
 
 public class TurnOnOff {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package modeling;
+package chapter01.modeling;
 
 public class Washer extends HomeAppliancies {
     public void turnOn() {

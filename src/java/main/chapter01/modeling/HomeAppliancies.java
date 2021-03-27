@@ -1,4 +1,4 @@
-package modeling;
+package chapter01.modeling;
 
 public abstract class HomeAppliancies {
     private int serialNo;

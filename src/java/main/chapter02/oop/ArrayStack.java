@@ -1,4 +1,4 @@
-package oop;
+package chapter02.oop;
 
 public class ArrayStack {
     private int top;

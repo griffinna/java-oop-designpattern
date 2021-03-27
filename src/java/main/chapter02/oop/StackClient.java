@@ -1,4 +1,4 @@
-package oop;
+package chapter02.oop;
 
 public class StackClient {
     public static void main(String[] args) {

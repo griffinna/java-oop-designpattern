@@ -1,4 +1,4 @@
-package polymorphism;
+package chapter02.polymorphism;
 
 class Cat extends Pet {
     @Override
