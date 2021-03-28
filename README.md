@@ -1,4 +1,31 @@
-# GoF 패턴
+# GoF 패턴의 분류
+| |패턴이름|
+|---|---|
+|생성 패턴|추상 팩토리 (Abstract Factory)|
+| |빌더 (Builder)|
+| |팩토리 메서드 (Factory Method)|
+| |프로토타입 (Prototype)|
+| |싱글턴 (Singleton)|
+|구조 패턴|어댑터 (Adapter)|
+| |브리지 (Bridge)|
+| |컴퍼지트 (Composite)|
+| |데커레이터 (Decorator)|
+| |퍼사드 (facade)|
+| |플라이웨이트 (Flyweight)|
+| |프록시 (Proxy)|
+|행위 패턴|책임 연쇄 (Chain of Responsibility)|
+| |커맨드 (Command)|
+| |인터프리터 (Interpreter)|
+| |이터레이터 (Iterator)|
+| |미디에이터 (Mediator)|
+| |메멘토 (Memento)|
+| |스테이트 (State)|
+| |스트레티지 (Strategy)|
+| |템플릿 메서드 (Template Method)|
+| |비지터 (Visitor)|
+
+
+# GoF 패턴 요약
 
 |패턴 분류|패턴 이름|패턴 설명|
 |---|---|---|
