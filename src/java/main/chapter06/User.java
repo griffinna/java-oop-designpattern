@@ -11,4 +11,10 @@ public class User {
         Printer printer = Printer.getPrinter();
         printer.print(this.name + " print using " + printer.toString() + ".");
     }
+
+    public void syncPrint() {
+        SyncPrinter printer = SyncPrinter.getPrinter();
+        printer.print(this.name + " sync print using " + printer.toString() + ".");
+    }
+
 }

@@ -7,7 +7,10 @@ public class UserThread extends Thread {
 
     @Override
     public void run() {
-        Printer printer = Printer.getPrinter();
-        printer.print(Thread.currentThread().getName() + " print using " + printer.toString() + ".");
+//        Printer printer = Printer.getPrinter();
+//        printer.print(Thread.currentThread().getName() + " print using " + printer.toString() + ".");
+
+        SyncPrinter syncPrinter = SyncPrinter.getPrinter();
+        syncPrinter.print(Thread.currentThread().getName() + " sync print using " + syncPrinter.toString() + ".");
     }
 }
