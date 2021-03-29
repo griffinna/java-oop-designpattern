@@ -16,8 +16,10 @@ public class SyncPrinter {
     }
 
     public void print(String resource) {
-        counter++;
-        System.out.println(resource + counter);
+        synchronized (this) {
+            counter++;
+            System.out.println(resource + counter);
+        }
     }
 
 }
